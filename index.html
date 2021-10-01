@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .usersurname,
+        .username,
+        .userpatronymic{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <label for="surname">ФИО</label>
+        <input type="text" name ="surname">
+        <button>ОК</button>
+    </div>
+    <div class="usersurname">
+        <div> Фамилия:</div> 
+        <div id="surnamevalue"> </div>
+    </div>
+    <div class="username">
+        <div> Имя:</div> 
+        <div id="namevalue"> </div>
+    </div>
+    <div class="userpatronymic">
+        <div> Отчество:</div> 
+        <div id="patronymicvalue"> </div>
+    </div>
+    <script src ="script.js"></script>
+</body>
+</html>
